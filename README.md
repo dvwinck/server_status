@@ -32,7 +32,8 @@ This is a Flask application that provides system status information through vari
 ## Endpoints
 
 - `/health`: Returns a simple "OK!" response
-- `/info`: Returns system information (hostname, OS, Python version, timestamp)
+- `/info`: Returns system information (hostname, IP, OS, Python version, timestamp)
+- `/status`: Returns system resource usage (CPU, memory, disk)
 
 ## Dependencies
 
